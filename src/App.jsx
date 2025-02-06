@@ -1,5 +1,12 @@
 import "./App.css";
+import { Home } from "./Components/Home/Home";
+import { Menu } from "./Components/Menu/Menu";
 
 export function App() {
-  return <main></main>;
+  return (
+    <main>
+      <Menu />
+      <Home />
+    </main>
+  );
 }
