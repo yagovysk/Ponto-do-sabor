@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu, FiX } from "react-icons/fi";
-import logo from "../../assets/Ponto do sabor.svg";
+import logo from "../../assets/logo.png";
 import "../../App.css";
 
 export function Menu() {
@@ -16,7 +16,7 @@ export function Menu() {
             to="home"
             smooth={true}
             duration={500}
-            className="cursor-pointer hover:text-gray-400 text-white transition duration-300 ease-in-out"
+            className="cursor-pointer font-sans hover:text-gray-400 text-white transition duration-300 ease-in-out"
           >
             Início
           </Link>
@@ -26,7 +26,7 @@ export function Menu() {
             to="sobre"
             smooth={true}
             duration={500}
-            className="cursor-pointer hover:text-gray-400 text-white transition duration-300 ease-in-out"
+            className="cursor-pointer font-sans hover:text-gray-400 text-white transition duration-300 ease-in-out"
           >
             Sobre Nós
           </Link>
@@ -36,16 +36,16 @@ export function Menu() {
             to="section3"
             smooth={true}
             duration={500}
-            className="cursor-pointer hover:text-gray-400 text-white transition duration-300 ease-in-out"
+            className="cursor-pointer font-sans hover:text-gray-400 text-white transition duration-300 ease-in-out"
           >
             Nosso Cardápio
           </Link>
         </li>
         <a
           href=""
-          className="flex p-2 text-blue-900 bg-yellow-300 hover:bg-blue-900 hover:text-white transition duration-300 ease-in-out rounded-sm"
+          className="flex p-2 justify-center items-center text-[#050a30] bg-[#f8e5ac] font-sans text-sm hover:bg-blue-900 hover:text-white transition duration-300 ease-in-out rounded-sm"
         >
-          Entre em contato
+          Entre em contato!
         </a>
       </ul>
 
@@ -59,7 +59,7 @@ export function Menu() {
       <div
         className={`fixed top-0 right-0 h-full w-64 bg-gray-900 p-6 transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
-        } transition-transform md:hidden`}
+        } transition-transform md:hidden z-10`}
       >
         <button
           onClick={() => setIsOpen(false)}
@@ -74,7 +74,7 @@ export function Menu() {
               smooth={true}
               duration={500}
               onClick={() => setIsOpen(false)}
-              className="cursor-pointer hover:text-gray-400 text-white"
+              className="cursor-pointer font-sans hover:text-gray-400 text-white"
             >
               Início
             </Link>
@@ -85,7 +85,7 @@ export function Menu() {
               smooth={true}
               duration={500}
               onClick={() => setIsOpen(false)}
-              className="cursor-pointer hover:text-gray-400 text-white"
+              className="cursor-pointer font-sans hover:text-gray-400 text-white"
             >
               Sobre Nós
             </Link>
@@ -96,11 +96,17 @@ export function Menu() {
               smooth={true}
               duration={500}
               onClick={() => setIsOpen(false)}
-              className="cursor-pointer hover:text-gray-400 text-white"
+              className="cursor-pointer font-sans hover:text-gray-400 text-white"
             >
               Nosso Cardápio
             </Link>
           </li>
+          <a
+            href=""
+            className="flex p-2 justify-center items-center text-[#050a30] bg-[#f8e5ac] font-sans text-sm hover:bg-blue-900 hover:text-white transition duration-300 ease-in-out rounded-sm"
+          >
+            Entre em contato!
+          </a>
         </ul>
       </div>
     </nav>
