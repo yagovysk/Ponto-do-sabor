@@ -8,7 +8,7 @@ export function Menu() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-gray-800 p-4 flex justify-between items-center relative">
+    <nav className="w-full bg-[#0f1c37] p-4 flex justify-between items-center relative">
       <img src={logo} className="w-20 rounded-full md:w-30" alt="Logo" />
       <ul className="hidden md:flex gap-4 justify-center flex-1 items-center">
         <li>
@@ -43,7 +43,7 @@ export function Menu() {
         </li>
         <a
           href=""
-          className="flex p-2 justify-center items-center text-[#050a30] bg-[#f8e5ac] font-sans text-sm hover:bg-blue-900 hover:text-white transition duration-300 ease-in-out rounded-sm"
+          className="flex px-2 py-2.5 justify-center items-center text-[#0f1c37] bg-[#f8e5ac] font-sans text-m hover:bg-blue-900 hover:text-white transition duration-300 ease-in-out rounded-sm"
         >
           Entre em contato!
         </a>
