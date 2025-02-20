@@ -3,7 +3,10 @@ import "../../App.css";
 export function Sobre() {
   return (
     <section className="flex flex-col justify-center items-center py-8 px-6 gap-6 bg-[#0f1c37]">
-      <h2 className="text-4xl md:text-5xl lobster-css text-white text-center">
+      <h2
+        id="sobre"
+        className="text-4xl md:text-5xl lobster-css text-white text-center"
+      >
         Sobre Nós
       </h2>
 

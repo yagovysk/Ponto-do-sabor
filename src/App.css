@@ -45,6 +45,7 @@
 }
 .footer-icon {
   border-radius: 100%;
+  font-size: 3rem;
 }
 .container-icons a:hover {
   transform: translateY(-4px);

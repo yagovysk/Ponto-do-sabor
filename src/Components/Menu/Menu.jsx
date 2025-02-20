@@ -33,7 +33,7 @@ export function Menu() {
         </li>
         <li>
           <Link
-            to="section3"
+            to="cardapio"
             smooth={true}
             duration={500}
             className="cursor-pointer poppins-css hover:text-gray-400 text-white transition duration-300 ease-in-out"
@@ -93,7 +93,7 @@ export function Menu() {
           </li>
           <li>
             <Link
-              to="section3"
+              to="cardapio"
               smooth={true}
               duration={500}
               onClick={() => setIsOpen(false)}

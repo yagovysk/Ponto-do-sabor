@@ -2,7 +2,10 @@ import "../../App.css";
 
 export function Cardapio() {
   return (
-    <section className="bg-black text-white min-h-screen flex flex-col items-center px-4 py-15">
+    <section
+      id="cardapio"
+      className="bg-black text-white min-h-screen flex flex-col items-center px-4 py-15"
+    >
       <div className="max-w-4xl w-full">
         <h2 className="text-2xl lobster-css text-center mb-4">
           Pizzas Salgadas Grandes
