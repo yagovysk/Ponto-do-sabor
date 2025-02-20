@@ -3,7 +3,10 @@ import video from "../../assets/background-home.mp4";
 
 export function Home() {
   return (
-    <section className="relative w-full h-[50vh] md:h-screen flex justify-center text-white">
+    <section
+      id="home"
+      className="relative w-full h-[50vh] md:h-screen flex justify-center text-white"
+    >
       <video
         className="absolute top-0 left-0 w-full object-cover md:h-screen h-[50vh]"
         autoPlay
