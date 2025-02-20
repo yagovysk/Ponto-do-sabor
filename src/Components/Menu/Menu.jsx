@@ -16,7 +16,7 @@ export function Menu() {
             to="home"
             smooth={true}
             duration={500}
-            className="cursor-pointer font-sans hover:text-gray-400 text-white transition duration-300 ease-in-out"
+            className="cursor-pointer poppins-css hover:text-gray-400 text-white transition duration-300 ease-in-out"
           >
             Início
           </Link>
@@ -26,7 +26,7 @@ export function Menu() {
             to="sobre"
             smooth={true}
             duration={500}
-            className="cursor-pointer font-sans hover:text-gray-400 text-white transition duration-300 ease-in-out"
+            className="cursor-pointer poppins-css hover:text-gray-400 text-white transition duration-300 ease-in-out"
           >
             Sobre Nós
           </Link>
@@ -36,14 +36,15 @@ export function Menu() {
             to="section3"
             smooth={true}
             duration={500}
-            className="cursor-pointer font-sans hover:text-gray-400 text-white transition duration-300 ease-in-out"
+            className="cursor-pointer poppins-css hover:text-gray-400 text-white transition duration-300 ease-in-out"
           >
             Nosso Cardápio
           </Link>
         </li>
         <a
-          href=""
-          className="flex px-2 py-2.5 justify-center items-center text-[#0f1c37] bg-[#f8e5ac] font-sans text-m hover:bg-blue-900 hover:text-white transition duration-300 ease-in-out rounded-sm"
+          href="https://wa.me/+5561981326059?text=Olá, vim pelo site, gostaria de saber das pizzas e hambúrgueres."
+          target="blank"
+          className="flex px-2 py-2.5 justify-center items-center text-[#0f1c37] bg-[#f8e5ac] poppins-css text-m hover:bg-blue-900 hover:text-white transition duration-300 ease-in-out rounded-sm"
         >
           Entre em contato!
         </a>
@@ -102,7 +103,8 @@ export function Menu() {
             </Link>
           </li>
           <a
-            href=""
+            href="https://wa.me/+5561981326059?text=Olá, vim pelo site, gostaria de saber das pizzas e hambúrgueres."
+            target="blank"
             className="flex p-2 justify-center items-center text-[#050a30] bg-[#f8e5ac] font-sans text-sm hover:bg-blue-900 hover:text-white transition duration-300 ease-in-out rounded-sm"
           >
             Entre em contato!

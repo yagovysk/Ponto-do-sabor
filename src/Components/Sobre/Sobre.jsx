@@ -3,11 +3,11 @@ import "../../App.css";
 export function Sobre() {
   return (
     <section className="flex flex-col justify-center items-center py-8 px-6 gap-6 bg-[#0f1c37]">
-      <h2 className="text-4xl md:text-5xl font-lobster text-white text-center">
+      <h2 className="text-4xl md:text-5xl lobster-css text-white text-center">
         Sobre Nós
       </h2>
 
-      <h3 className="font-sans text-center text-white max-w-[90%] md:max-w-[700px] text-lg md:text-xl leading-relaxed">
+      <h3 className="lobster-two-css text-center text-white max-w-[90%] md:max-w-[700px] text-lg md:text-xl leading-relaxed">
         Nem tudo termina bem, mas tudo pode começar de forma deliciosa, não é?
         Aqui no Ponto do Sabor, acreditamos que uma boa pizza faz toda a
         diferença! Foi com essa paixão que Marcos Monteiro da Silva criou nossa
@@ -16,14 +16,15 @@ export function Sobre() {
         justos e um atendimento que faz você se sentir em casa.
       </h3>
 
-      <p className="font-sans text-white max-w-[90%] md:max-w-[700px] text-lg text-center">
+      <p className="lobster-two-css text-white max-w-[90%] md:max-w-[700px] text-lg text-center">
         🍕 Ponto do Sabor – onde cada fatia conta uma história de sabor e
         dedicação!
       </p>
 
       <a
-        href=""
-        className="font-sans bg-white text-[#0f1c37] text-lg py-3 px-6 rounded-md w-full max-w-[300px] text-center transition-all hover:bg-[#b1bde0] hover:scale-105"
+        href="https://wa.me/+5561981326059?text=Olá, vim pelo site, gostaria de saber das pizzas e hambúrgueres."
+        target="blank"
+        className="play-css bg-white text-[#0f1c37] text-lg py-3 px-6 rounded-md w-full max-w-[300px] text-center transition-all hover:bg-[#b1bde0] hover:scale-105"
       >
         Entre em contato conosco!
       </a>

@@ -1,1 +1,86 @@
 @import "tailwindcss";
+.poppins-css {
+  font-family: "Poppins", serif;
+}
+.play-css {
+  font-family: "Playfair Display", serif;
+}
+.lobster-css {
+  font-family: "Lobster", serif;
+}
+.lobster-two-css {
+  font-family: "Lobster Two", sans-serif;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #023b40, rgb(14, 71, 92), #034559);
+  box-shadow: 0 0 10px #069eaf, 0 0 20px #0696a7, 0 0 40px #0698a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 4rem 1rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-link {
+  text-decoration: none;
+  display: flex;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.footer-link:hover {
+  transform: translateY(-4px);
+}
+.container-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+.container-icons a {
+  color: #fff;
+  font-size: 1.3rem;
+  transition: 0.4s ease;
+  display: flex;
+  z-index: 3;
+}
+.footer-icon {
+  border-radius: 100%;
+}
+.container-icons a:hover {
+  transform: translateY(-4px);
+}
+.footer h3 {
+  font-family: "Poppins", serif;
+  color: #fff;
+  font-size: 1rem;
+}
+.tgv-button {
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  color: #fff;
+  display: flex;
+  transition: 0.5s ease;
+  display: flex;
+  z-index: 3;
+}
+.tgv-button span {
+  color: #ff073a;
+  display: flex;
+}
+.tgv-button:hover {
+  transform: translateY(-5px);
+}
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 0;
+  }
+  .footer h3 {
+    font-size: 0.4rem;
+  }
+  .tgv-button {
+    font-size: 0.7rem;
+  }
+  .footer-icon {
+    font-size: 1rem;
+  }
+}
