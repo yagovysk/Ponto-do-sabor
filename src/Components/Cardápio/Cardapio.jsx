@@ -51,14 +51,6 @@ export function Cardapio() {
               <p className="lobster-two-css">R$ 35,00</p>
             </div>
             <div>
-              <h3 className="text-lg lobster-css">Pizza de Frango</h3>
-              <p className="lobster-two-css">
-                Massa, queijo, frango, molho de tomate, milho, azeitonas e
-                orégano.
-              </p>
-              <p className="lobster-two-css">R$ 35,00</p>
-            </div>
-            <div>
               <h3 className="text-lg lobster-css">Pizza de Peito de Peru</h3>
               <p className="lobster-two-css">
                 Massa, queijo, molho de tomate, peito de peru, tomate, cebola e
