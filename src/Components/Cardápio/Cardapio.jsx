@@ -35,6 +35,14 @@ export function Cardapio() {
               <p className="lobster-two-css">R$ 30,00</p>
             </div>
             <div>
+              <h3 className="text-lg lobster-css">Pizza de Calabresa</h3>
+              <p className="lobster-two-css">
+                Massa, queijo, molho de tomate, calabresa, cebola, azeitonas e
+                orégano.
+              </p>
+              <p className="lobster-two-css">R$ 30,00</p>
+            </div>
+            <div>
               <h3 className="text-lg lobster-css">Pizza de Lombo</h3>
               <p className="lobster-two-css">
                 Massa, queijo, lombo canadense, molho de tomate, tomate, cebola
@@ -43,56 +51,12 @@ export function Cardapio() {
               <p className="lobster-two-css">R$ 35,00</p>
             </div>
             <div>
-              <h3 className="text-lg lobster-css">
-                Pizza de Frango com catupiry
-              </h3>
-              <p className="lobster-two-css">
-                Massa, queijo, frango, molho de tomate, milho, azeitonas,
-                catupiry e orégano.
-              </p>
-              <p>R$ 37,00</p>
-            </div>
-            <div>
-              <h3 className="text-lg lobster-css">Pizza de Bacon</h3>
-              <p className="lobster-two-css">
-                Massa, queijo, bacon, molho de tomate, tomate, cebola, azeitonas
-                e orégano.
-              </p>
-              <p className="lobster-two-css">R$ 37,00</p>
-            </div>
-            <div>
-              <h3 className="text-lg lobster-css">Pizza de Peperoni</h3>
-              <p className="lobster-two-css">
-                Massa, queijo, peperoni, molho de tomate, tomate, azeitonas,
-                manjericão e orégano.
-              </p>
-              <p className="lobster-two-css">R$ 37,00</p>
-            </div>
-            <div>
-              <h3 className="text-lg lobster-css">Pizza Moda da casa</h3>
-              <p className="lobster-two-css">
-                Massa, queijo, presunto, frango, milho, pimentão, molho de
-                tomate, tomate, cebola e orégano
-              </p>
-              <p className="lobster-two-css">R$ 37,99</p>
-            </div>
-          </div>
-          <div className="flex flex-col gap-4 w-full">
-            <div>
               <h3 className="text-lg lobster-css">Pizza de Frango</h3>
               <p className="lobster-two-css">
                 Massa, queijo, frango, molho de tomate, milho, azeitonas e
                 orégano.
               </p>
               <p className="lobster-two-css">R$ 35,00</p>
-            </div>
-            <div>
-              <h3 className="text-lg lobster-css">Pizza de Calabresa</h3>
-              <p className="lobster-two-css">
-                Massa, queijo, molho de tomate, calabresa, cebola, azeitonas e
-                orégano.
-              </p>
-              <p className="lobster-two-css">R$ 30,00</p>
             </div>
             <div>
               <h3 className="text-lg lobster-css">Pizza de Peito de Peru</h3>
@@ -111,6 +75,34 @@ export function Cardapio() {
               <p className="lobster-two-css">R$ 35,00</p>
             </div>
             <div>
+              <h3 className="text-lg lobster-css">Pizza de Bacon</h3>
+              <p className="lobster-two-css">
+                Massa, queijo, bacon, molho de tomate, tomate, cebola, azeitonas
+                e orégano.
+              </p>
+              <p className="lobster-two-css">R$ 37,00</p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-4 w-full">
+            <div>
+              <h3 className="text-lg lobster-css">Pizza de Peperoni</h3>
+              <p className="lobster-two-css">
+                Massa, queijo, peperoni, molho de tomate, tomate, azeitonas,
+                manjericão e orégano.
+              </p>
+              <p className="lobster-two-css">R$ 37,00</p>
+            </div>
+            <div>
+              <h3 className="text-lg lobster-css">
+                Pizza de Frango com catupiry
+              </h3>
+              <p className="lobster-two-css">
+                Massa, queijo, frango, molho de tomate, milho, azeitonas,
+                catupiry e orégano.
+              </p>
+              <p>R$ 37,00</p>
+            </div>
+            <div>
               <h3 className="text-lg lobster-css">Pizza de Frango com bacon</h3>
               <p className="lobster-two-css">
                 Massa, queijo, frango, bacon, molho de tomate, azeitonas e
@@ -125,6 +117,14 @@ export function Cardapio() {
                 tomate e orégano.
               </p>
               <p className="lobster-two-css">R$ 37,00</p>
+            </div>
+            <div>
+              <h3 className="text-lg lobster-css">Pizza Moda da casa</h3>
+              <p className="lobster-two-css">
+                Massa, queijo, presunto, frango, milho, pimentão, molho de
+                tomate, tomate, cebola e orégano
+              </p>
+              <p className="lobster-two-css">R$ 37,99</p>
             </div>
             <div>
               <h3 className="text-lg lobster-css">Pizza Portuguesa</h3>
@@ -144,7 +144,6 @@ export function Cardapio() {
             </div>
           </div>
         </article>
-
         <h2 className="text-2xl font-bold text-center my-4">Pizzas Doces</h2>
         <article className="flex flex-col md:flex-row gap-6">
           <div className="flex flex-col gap-4 w-full">
