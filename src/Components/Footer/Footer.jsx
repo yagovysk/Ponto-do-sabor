@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="footer">
       <div className="container-icons">
         <a
-          href="https://www.instagram.com/pontodosaborvp/?utm_source=qr&igsh=MnRzOW9peWF4bHRw"
+          href="https://www.instagram.com/ponto.dosaborpizzaria?igsh=cGV5bnVqeWg1Ympn"
           target="blank"
         >
           <FaInstagramSquare className="footer-icon" />
